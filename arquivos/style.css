@@ -33,6 +33,86 @@ header img {
     border-radius: 50%;
 }
 
+.menu {
+    position: fixed;
+}
+
+#menu {
+    display: none;
+    height: 101vh;
+    width: 420px;
+    transform: translate(-20px, -5px);
+    background-color: #DB3534;
+}
+
+#menu-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+#menu-header i {
+    color: white;
+}
+
+#menu-items {
+    padding: 20px 40px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+#menu-items-b > div {
+    width: fit-content;
+    padding: 8px 0px;
+    border-bottom: 1px solid transparent;
+}
+
+#menu-items-b > div:hover {
+    border-bottom: 1px solid white;
+}
+
+#entrar {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+#entrar a {
+    color: white;
+}
+
+#entrar a:hover {
+    text-decoration: none;
+}
+
+#promo-retorn {
+    width: fit-content;
+    padding: 8px 0px;
+    border-bottom: 1px solid transparent;
+}
+
+#promo-retorn:hover {
+    border-bottom: 1px solid white;
+}
+
+#sub-menu-opt1, #sub-menu-opt2 {
+    display: none;
+}
+
+#sub-menu-opt2 {
+    font-weight: normal;
+    margin: 10px 20px;
+    width: fit-content;
+}
+
+#sub-menu-opt2 div {
+    padding: 8px 0px;
+    border-bottom: 1px solid transparent;
+}
+
+#sub-menu-opt2 div:hover {
+    border-bottom: 1px solid white;
+}
+
 .background-pos-header {
     height: 700px;
     background: black url('imagens/game.png') bottom no-repeat;
@@ -221,7 +301,6 @@ header img {
 #cadastre-txt {
     padding: 30px 15px 40px 15px;
     color: white;
-    position: relative;
     margin-bottom: -2px;
 }
 

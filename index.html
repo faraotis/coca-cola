@@ -13,9 +13,69 @@
             <div>
                 <img src="arquivos/imagens/coca-cola-logo.png" alt="logo-coca-cola">
             </div>
-            <div id="menu">
-                <i class="material-icons">menu</i>
-            </div>
+            <i class="material-icons" onclick="AbrirMenu()">menu</i>
+            <menu class="menu">
+                <div id="menu">
+                    <div id="menu-header">
+                        <div>
+                            <img src="arquivos/imagens/coca-cola-logo.png" alt="logo-coca-cola">
+                        </div>
+                        <div>
+                            <i class="material-icons" onclick="FecharMenu()">close</i>
+                        </div>
+                    </div>
+                    <div id="menu-items">
+                        <div id="entrar">
+                            <a href="#">
+                                Entrar!
+                            </a>
+                        </div>
+                        <div id="menu-items-b">
+                            <div>
+                                Ofertas
+                            </div>
+                            <menu class="sub-menu">
+                                <div id="promo-retorn">
+                                    Promoções
+                                </div>
+                                <div id="sub-menu-opt1">
+                                    <div>
+                                        Finalizadas
+                                    </div>
+                                </div>
+                            </menu>
+                            <div>
+                                Dá o play
+                            </div>
+                            <menu class="sub-menu">
+                                <div id="promo-retorn">
+                                    Retornáveis
+                                </div>
+                                <div id="sub-menu-opt2">
+                                    <div>
+                                        Sobre
+                                    </div>
+                                    <div>
+                                        Onde comprar
+                                    </div>
+                                    <div>
+                                        Garrafa Virtual
+                                    </div>
+                                </div>
+                            </menu>
+                            <div>
+                                Loja
+                            </div>
+                            <div>
+                                Natal
+                            </div>
+                            <div>
+                                Ajuda
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </menu>
         </header>
         <div>
             <h1>
@@ -177,5 +237,6 @@
             </div>
         </section>
     </footer>
+    <script src="arquivos/script.js"></script>
 </body>
 </html>

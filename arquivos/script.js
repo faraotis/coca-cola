@@ -1,4 +1,4 @@
-let menu = document.querySelector('#menu')
+let menu = document.getElementsByTagName('nav')[0]
 
 function AbrirMenu() {
     menu.style.display = 'block'

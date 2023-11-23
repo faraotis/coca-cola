@@ -13,13 +13,13 @@
 }
 
 body {
-    /*width: 98vw;
-    height: 100%;*/
+    width: 98vw;
+    height: 100%;
 
-    width: 100%;
+    /* width: 100%;
     max-width: 420px;
     height: 100%;
-    margin: auto; 
+    margin: auto; */
 }
 
 header {
@@ -52,12 +52,13 @@ nav {
 nav > div {
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 5px 12px 0px 37px;
 }
 
 nav > div > div i {
     color: white;
 }
+
 
 ul {
     padding: 20px 40px;
